@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Debanga Dutta | Software Developer Portfolio</title>
+    <meta content="Portfolio of Debanga Dutta, a Software Developer and Computer Science student." name="description"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <script src="js/tailwind.config.js"></script>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-gray-800 dark:text-gray-200 font-display min-h-screen selection:bg-primary selection:text-white transition-colors duration-300">
+    <div class="fixed inset-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob"></div>
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+        <div class="absolute -bottom-32 left-1/3 w-96 h-96 bg-indigo-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
+    </div>
+
+    <button aria-label="Toggle Dark Mode" class="fixed top-6 right-6 z-50 bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 p-3 rounded-full hover:scale-110 flex items-center justify-center group" id="theme-toggle">
+        <span class="material-icons-round text-yellow-500 group-hover:rotate-180 transition-transform duration-500 dark:hidden">light_mode</span>
+        <span class="material-icons-round text-primary group-hover:rotate-180 transition-transform duration-500 hidden dark:block">dark_mode</span>
+    </button>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-6 lg:p-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 auto-rows-[minmax(180px,auto)]">
+            <!-- Profile Card -->
+            <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 col-span-1 md:col-span-2 lg:col-span-2 row-span-2 p-6 md:p-8 relative overflow-hidden group flex flex-col justify-between">
+                <div class="absolute top-0 right-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-primary/20 transition-all duration-500"></div>
+                <div class="relative z-10">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="relative">
+                            <div class="w-24 h-24 md:w-28 md:h-28 rounded-full overflow-hidden border-4 border-white dark:border-white/10 shadow-lg">
+                                <img alt="Debanga Dutta Profile" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0HqCl5GGY3UY8sSSvL6WDP98fapAEaRxj3SHGII5S6Opy3EvqVE74XAOR2BXD92NhQ_pVFVqEfckh_1svKswiat6EIivG03x0Ia9sOMD886lfz6IB-x6GXnvffLfZ9kzil9RD-uJt3egnLwqUKIwjM9PFl2OzpZVNkn5Xv9E52dqjHC3CACKQZOMKx6RMO3zs1rjuSLmaATXetnkXsh6bTv_EWgMAWzGtSgle1RySfklPjzZhZUq7whDNXlKxSf2g_RNC2G4tS3s"/>
+                            </div>
+                            <div class="absolute bottom-1 right-1 w-6 h-6 bg-green-500 border-4 border-white dark:border-[#1a1a1a] rounded-full animate-pulse"></div>
+                        </div>
+                        <a class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 px-4 py-2 text-sm font-medium flex items-center gap-2 hover:bg-primary hover:text-white group/btn" href="#">
+                            Resume <span class="material-icons-round text-base group-hover/btn:animate-bounce">download</span>
+                        </a>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-2 tracking-tight">Debanga Dutta</h1>
+                    <p class="text-lg md:text-xl text-gray-500 dark:text-gray-400 mb-6 font-medium">Software Developer <span class="mx-2 text-primary">•</span> CS Student</p>
+                    <p class="text-gray-600 dark:text-gray-400 text-sm md:text-base leading-relaxed max-w-lg mb-6">
+                        Passionate Computer Science student with expertise in web technologies, AI/ML, and software development. Building solutions that bridge creativity and functionality.
+                    </p>
+                </div>
+                <div class="relative z-10 flex flex-wrap gap-3 mt-auto">
+                    <span class="px-3 py-1.5 rounded-lg bg-white/50 dark:bg-white/5 border border-white/20 text-xs font-medium flex items-center gap-1.5">
+                        <i class="fa-solid fa-location-dot text-primary"></i> Assam, India
+                    </span>
+                    <span class="px-3 py-1.5 rounded-lg bg-white/50 dark:bg-white/5 border border-white/20 text-xs font-medium flex items-center gap-1.5">
+                        <i class="fa-solid fa-graduation-cap text-primary"></i> B.Tech CSE (2027)
+                    </span>
+                    <span class="px-3 py-1.5 rounded-lg bg-white/50 dark:bg-white/5 border border-white/20 text-xs font-medium flex items-center gap-1.5">
+                        <i class="fa-solid fa-language text-primary"></i> English &amp; Hindi
+                    </span>
+                </div>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="col-span-1 flex flex-col gap-4 md:gap-6">
+                <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 flex-1 p-6 flex flex-col justify-center items-center text-center group">
+                    <h3 class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary via-purple-400 to-blue-500 mb-1 group-hover:scale-110 transition-transform">5+</h3>
+                    <span class="text-sm font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Projects Completed</span>
+                </div>
+                <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 flex-1 p-6 flex flex-col justify-center items-center text-center group">
+                    <h3 class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary via-purple-400 to-blue-500 mb-1 group-hover:scale-110 transition-transform">4+</h3>
+                    <span class="text-sm font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider">Certifications</span>
+                </div>
+            </div>
+
+            <!-- Experience Card -->
+            <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 col-span-1 md:col-span-1 lg:col-span-1 row-span-2 p-6 overflow-y-auto">
+                <div class="flex items-center gap-2 mb-6">
+                    <span class="p-2 rounded-lg bg-primary/10 text-primary">
+                        <span class="material-icons-round text-xl">work_history</span>
+                    </span>
+                    <h2 class="text-lg font-bold">Experience</h2>
+                </div>
+                <div class="space-y-8 relative before:absolute before:inset-0 before:ml-2.5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 dark:before:via-gray-700 before:to-transparent">
+                    <div class="relative pl-8 group">
+                        <span class="absolute left-0 top-1 h-5 w-5 rounded-full border-4 border-white dark:border-[#1a1a1a] bg-primary shadow group-hover:scale-125 transition-transform"></span>
+                        <div class="flex flex-col sm:relative sm:before:absolute sm:before:top-2 sm:before:w-4 sm:before:h-1 sm:before:bg-transparent sm:before:left-[-35px] sm:before:z-[1] sm:before:font-medium">
+                            <h3 class="text-sm font-bold text-gray-900 dark:text-white">Assam Electronics Dev. Corp.</h3>
+                            <time class="text-xs text-gray-500 dark:text-gray-400 mb-1 block">Dec 2025 - Jan 2025</time>
+                            <p class="text-xs text-gray-600 dark:text-gray-400">Networking Intern: IT infrastructure, LAN/WAN, Server setup.</p>
+                        </div>
+                    </div>
+                    <div class="relative pl-8 group">
+                        <span class="absolute left-0 top-1 h-5 w-5 rounded-full border-4 border-white dark:border-[#1a1a1a] bg-blue-500 shadow group-hover:scale-125 transition-transform"></span>
+                        <div class="flex flex-col">
+                            <h3 class="text-sm font-bold text-gray-900 dark:text-white">Gauhati University</h3>
+                            <time class="text-xs text-gray-500 dark:text-gray-400 mb-1 block">Jul 2025</time>
+                            <p class="text-xs text-gray-600 dark:text-gray-400">AI Intern: NLP, Generative AI, LLMs &amp; Transformers.</p>
+                        </div>
+                    </div>
+                    <div class="relative pl-8 group">
+                        <span class="absolute left-0 top-1 h-5 w-5 rounded-full border-4 border-white dark:border-[#1a1a1a] bg-pink-500 shadow group-hover:scale-125 transition-transform"></span>
+                        <div class="flex flex-col">
+                            <h3 class="text-sm font-bold text-gray-900 dark:text-white">NIELIT, Jorhat</h3>
+                            <time class="text-xs text-gray-500 dark:text-gray-400 mb-1 block">Jun 2025</time>
+                            <p class="text-xs text-gray-600 dark:text-gray-400">Python Trainee: NumPy, Pandas, Data Visualization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tech Stack Card -->
+            <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 col-span-1 md:col-span-2 lg:col-span-2 p-6 flex flex-col justify-center overflow-hidden">
+                <div class="flex items-center gap-2 mb-4">
+                    <span class="p-2 rounded-lg bg-primary/10 text-primary">
+                        <span class="material-icons-round text-xl">code</span>
+                    </span>
+                    <h2 class="text-lg font-bold">Tech Stack</h2>
+                </div>
+                <div class="relative w-full overflow-hidden mask-linear-gradient">
+                    <div class="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-gray-100 dark:from-[#0f0f11] to-transparent z-10"></div>
+                    <div class="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-gray-100 dark:from-[#0f0f11] to-transparent z-10"></div>
+                    <div class="flex whitespace-nowrap animate-marquee hover:[animation-play-state:paused] gap-8 items-center">
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-java text-2xl text-red-500"></i> Java</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-python text-2xl text-blue-400"></i> Python</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-js text-2xl text-yellow-400"></i> JavaScript</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-html5 text-2xl text-orange-500"></i> HTML5</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-css3-alt text-2xl text-blue-500"></i> CSS3</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-solid fa-database text-2xl text-teal-400"></i> SQL</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-git-alt text-2xl text-orange-600"></i> Git</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-android text-2xl text-green-500"></i> Android Studio</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-java text-2xl text-red-500"></i> Java</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-python text-2xl text-blue-400"></i> Python</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-js text-2xl text-yellow-400"></i> JavaScript</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-html5 text-2xl text-orange-500"></i> HTML5</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-brands fa-css3-alt text-2xl text-blue-500"></i> CSS3</div>
+                        <div class="flex items-center gap-2 text-gray-600 dark:text-gray-300 font-medium"><i class="fa-solid fa-database text-2xl text-teal-400"></i> SQL</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Connect Card -->
+            <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 col-span-1 p-6 flex flex-col justify-center gap-4">
+                <h3 class="font-bold text-gray-900 dark:text-white">Connect</h3>
+                <div class="grid grid-cols-2 gap-3">
+                    <a class="flex items-center justify-center p-3 rounded-xl bg-white/50 dark:bg-white/5 border border-white/20 hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors" href="#" title="GitHub">
+                        <i class="fa-brands fa-github text-xl"></i>
+                    </a>
+                    <a class="flex items-center justify-center p-3 rounded-xl bg-white/50 dark:bg-white/5 border border-white/20 hover:bg-[#0077b5] hover:text-white transition-colors" href="#" title="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in text-xl"></i>
+                    </a>
+                    <a class="flex items-center justify-center p-3 rounded-xl bg-white/50 dark:bg-white/5 border border-white/20 hover:bg-red-500 hover:text-white transition-colors" href="mailto:debangadutta50@gmail.com" title="Email">
+                        <i class="fa-solid fa-envelope text-xl"></i>
+                    </a>
+                    <a class="flex items-center justify-center p-3 rounded-xl bg-white/50 dark:bg-white/5 border border-white/20 hover:bg-green-500 hover:text-white transition-colors" href="#" title="Phone">
+                        <i class="fa-solid fa-phone text-xl"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Featured Projects Card -->
+            <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 col-span-1 md:col-span-2 p-6 flex flex-col">
+                <div class="flex items-center justify-between mb-4">
+                    <div class="flex items-center gap-2">
+                        <span class="p-2 rounded-lg bg-primary/10 text-primary">
+                            <span class="material-icons-round text-xl">rocket_launch</span>
+                        </span>
+                        <h2 class="text-lg font-bold">Featured Projects</h2>
+                    </div>
+                    <a class="text-xs font-medium text-primary hover:underline" href="#">View All</a>
+                </div>
+                <div class="space-y-3 flex-1">
+                    <div class="group flex items-center gap-4 p-3 rounded-xl hover:bg-white/50 dark:hover:bg-white/5 transition-colors cursor-pointer border border-transparent hover:border-white/10">
+                        <div class="w-12 h-12 rounded-lg bg-indigo-500/20 text-indigo-500 flex items-center justify-center">
+                            <i class="fa-solid fa-robot text-xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-semibold text-sm group-hover:text-primary transition-colors">VisionChat AI</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Image Recognition ChatBot with TTS</p>
+                        </div>
+                        <span class="material-icons-round text-gray-400 group-hover:translate-x-1 transition-transform">chevron_right</span>
+                    </div>
+                    <div class="group flex items-center gap-4 p-3 rounded-xl hover:bg-white/50 dark:hover:bg-white/5 transition-colors cursor-pointer border border-transparent hover:border-white/10">
+                        <div class="w-12 h-12 rounded-lg bg-purple-500/20 text-purple-500 flex items-center justify-center">
+                            <i class="fa-brands fa-discord text-xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-semibold text-sm group-hover:text-primary transition-colors">Discord AI Agent</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Agentic AI Project for community management</p>
+                        </div>
+                        <span class="material-icons-round text-gray-400 group-hover:translate-x-1 transition-transform">chevron_right</span>
+                    </div>
+                    <div class="group flex items-center gap-4 p-3 rounded-xl hover:bg-white/50 dark:hover:bg-white/5 transition-colors cursor-pointer border border-transparent hover:border-white/10">
+                        <div class="w-12 h-12 rounded-lg bg-orange-500/20 text-orange-500 flex items-center justify-center">
+                            <i class="fa-solid fa-network-wired text-xl"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h4 class="font-semibold text-sm group-hover:text-primary transition-colors">University Network</h4>
+                            <p class="text-xs text-gray-500 dark:text-gray-400">Cisco Packet Tracer simulation</p>
+                        </div>
+                        <span class="material-icons-round text-gray-400 group-hover:translate-x-1 transition-transform">chevron_right</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact CTA Card -->
+            <div class="bg-card-light dark:bg-card-dark backdrop-blur-xl border border-white/40 dark:border-white/10 shadow-lg dark:shadow-black/50 transition-all duration-300 hover:shadow-xl dark:hover:shadow-primary/5 hover:border-primary/30 dark:hover:border-primary/30 col-span-1 md:col-span-2 lg:col-span-2 p-8 flex flex-col justify-center items-center text-center relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-50"></div>
+                <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-4 text-primary animate-bounce">
+                    <span class="material-icons-round text-2xl">waving_hand</span>
+                </div>
+                <h2 class="text-2xl md:text-3xl font-bold mb-2">Let's Work Together</h2>
+                <p class="text-sm text-gray-600 dark:text-gray-400 mb-6 max-w-sm">
+                    Have a project in mind or just want to say hi? I'm currently open for new opportunities.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 w-full max-w-sm relative z-10">
+                    <button class="flex-1 py-3 px-4 rounded-xl bg-primary hover:bg-primary-dark text-white font-medium transition-all shadow-lg shadow-primary/25 active:scale-95 flex justify-center items-center gap-2">
+                        <span class="material-icons-round text-sm">email</span> Email Me
+                    </button>
+                    <button class="flex-1 py-3 px-4 rounded-xl bg-white/80 dark:bg-white/10 hover:bg-white dark:hover:bg-white/20 border border-transparent hover:border-gray-200 dark:hover:border-white/20 font-medium transition-all active:scale-95 flex justify-center items-center gap-2">
+                        <span class="material-icons-round text-sm">calendar_month</span> Schedule Call
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <footer class="mt-8 text-center text-xs text-gray-500 dark:text-gray-500">
+            <p>© 2024 Debanga Dutta. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
